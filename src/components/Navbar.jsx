@@ -56,7 +56,7 @@ function Navbar() {
         >
             {/* Left logo */}
             <div className='flex items-center  gap-6'>
-                
+
                 <img className='w-[50px]' src={isDarkMode ? logo : logob} alt="logo" />
                 <h1 className='hidden md:flex poppins-extrabold group-[.dark-mode]:text-white text-cyan-900 text-xl '>Industech Automations</h1>
             </div>
@@ -86,14 +86,16 @@ function Navbar() {
                     onChange={toggleDarkMode}
                     size={30}
                     className="ml-4"
+                    sunColor="#020024"    
+                    moonColor="#fff"
                 />
 
                 {/* Mobile Menu Dropdown */}
                 <div
-                    className={`fixed  top-0 right-0 h-screen w-[75vw] bg-white/5 backdrop-blur-sm border-b border-grey-500 group-[.dark-mode]:border-white/10 z-[9999] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+                    className={`fixed md:hidden block top-0 right-0 h-screen w-[75vw] bg-white/5 backdrop-blur-sm border-b border-grey-500 group-[.dark-mode]:border-white/10 z-[9999] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                         }`}
                 >
-                    <div className="flex justify-end m-10">
+                    <div className="flex justify-end p-6">
                         <i
                             className="fa fa-close text-2xl cursor-pointer text-cyan-800 group-[.dark-mode]:text-white "
                             onClick={() => setMenuOpen(false)}

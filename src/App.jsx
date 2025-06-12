@@ -23,7 +23,7 @@ function App() {
   },[])
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-clip">
       <Navbar />
       <Home />
       <Feature />
