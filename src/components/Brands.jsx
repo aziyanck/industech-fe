@@ -1,0 +1,28 @@
+import google from '../assets/google home.png'
+import apple from '../assets/apple.png'
+import alexa from '../assets/alexa.png'
+
+
+
+function Brands() {
+    return (
+        <div className="w-full h-[20vh] text-cyan-900 group-[.dark-mode]:text-white ">
+            <div className="flex flex-col justify-center items-center w-full">
+                <h1 className="text-2xl poppins-extrabold">Our Trusted Brands</h1>
+
+                <div className="m-4 flex flex-col w-full bg-blue-300 group-[.dark-mode]:bg-blue-950 justify-center items-center">
+                    <h1 className="mt-4 text-lg">The Smartest Home Work Together</h1>
+
+                    <div className="flex justify-around flex-wrap gap-6 p-4 [&>*]:md:w-34 w-full max-w-[500px]">
+                        <img src={google} alt="Google" className="w-[100px] h-auto object-contain" />
+                        <img src={apple} alt="Apple" className="w-[100px] h-auto object-contain" />
+                        <img src={alexa} alt="Alexa" className="w-[100px] h-auto object-contain" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
+}
+
+export default Brands;
