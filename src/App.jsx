@@ -12,8 +12,6 @@ import WhyIta from './components/WhyIta'
 
 
 
-
-
 function App() {
 
   useEffect(()=>{

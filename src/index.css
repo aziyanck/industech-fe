@@ -214,6 +214,9 @@ body {
 .light-text-l{
   @apply text-[#040138]
 }
+.light-text-vl{
+  @apply text-[#5b5b5e]
+}
 
 .dark-text-s{
   @apply group-[.dark-mode]:text-white
