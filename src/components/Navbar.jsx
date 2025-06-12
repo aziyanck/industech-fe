@@ -90,10 +90,10 @@ function Navbar() {
 
                 {/* Mobile Menu Dropdown */}
                 <div
-                    className={`fixed md:hidden block top-0 right-0 h-screen w-[75vw] bg-white/5 backdrop-blur-sm border-b border-grey-500 group-[.dark-mode]:border-white/10 z-[9999] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+                    className={`fixed  top-0 right-0 h-screen w-[75vw] bg-white/5 backdrop-blur-sm border-b border-grey-500 group-[.dark-mode]:border-white/10 z-[9999] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                         }`}
                 >
-                    <div className="flex justify-end p-6">
+                    <div className="flex justify-end m-10">
                         <i
                             className="fa fa-close text-2xl cursor-pointer text-cyan-800 group-[.dark-mode]:text-white "
                             onClick={() => setMenuOpen(false)}

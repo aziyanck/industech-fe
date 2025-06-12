@@ -23,14 +23,16 @@ function App() {
   },[])
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Home />
       <Feature />
       <Services />
       <Brands />
       <WhyIta />
-    </>
+
+    </div>
+    
   )
 }
 

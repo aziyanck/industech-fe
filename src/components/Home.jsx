@@ -31,7 +31,7 @@ function Home() {
     }, []);
 
     return (
-        <div className="home flex flex-col justify-center items-center h-[90vh] ">
+        <div className="home flex flex-col justify-center w-screen items-center h-[90vh] ">
 
 
             <div className="up w-[90vw] min-h-[55vh] md:min-h-[60vh] md:bg-amber-300 bg-red-500 ">
