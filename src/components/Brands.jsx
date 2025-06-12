@@ -6,7 +6,7 @@ import alexa from '../assets/alexa.png'
 
 function Brands() {
     return (
-        <div className="w-full h-[20vh] text-cyan-900 group-[.dark-mode]:text-white ">
+        <div className="w-full h-[20vh] dark-text-s light-text-s ">
             <div className="flex flex-col justify-center items-center w-full">
                 <h1 className="text-2xl poppins-extrabold">Our Trusted Brands</h1>
 

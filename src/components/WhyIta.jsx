@@ -1,6 +1,6 @@
 function WhyIta() {
     return (
-        <div className="flex justify-center items-center w-[100vw] h-[100vh] text-cyan-800 group-[.dark-mode]:text-white">
+        <div className="flex justify-center items-center w-[100vw] h-[100vh] dark-text-s light-text-s">
             <div className="flex flex-col justify-center items-center w-[90vw] h-[95vh]">
                 <h1 data-aos="fade-up" className="text-3xl poppins-extrabold p-10">Why Choose ITA?</h1>
                 <p> dkj</p>

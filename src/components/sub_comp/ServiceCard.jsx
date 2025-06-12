@@ -19,7 +19,7 @@ function ServiceCard({ img, title, desc, reverse = false }) {
                         className="right w-full md:w-[50%] h-auto md:h-full flex flex-col justify-center px-6 py-4"
                     >
                         <h1 className="text-xl poppins-bold pb-6">{title}</h1>
-                        <h3 className="poppins-regular text-base whitespace-pre-line">
+                        <h3 className="poppins-regular text-base dark-text-l light-text-l whitespace-pre-line">
                             {desc}
                         </h3>
                     </div>

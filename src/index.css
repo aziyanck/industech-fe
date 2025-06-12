@@ -208,7 +208,20 @@ body {
 } */
 /* blure gradient */
 
+.light-text-s{
+  @apply text-[#1b1a2c]
+}
+.light-text-l{
+  @apply text-[#040138]
+}
 
+.dark-text-s{
+  @apply group-[.dark-mode]:text-white
+}
+
+.dark-text-l{
+  @apply  group-[.dark-mode]:text-white/90
+}
 
 html.dark-mode body {
   background: #020024;

@@ -58,20 +58,20 @@ function Navbar() {
             <div className='flex items-center  gap-6'>
 
                 <img className='w-[50px]' src={isDarkMode ? logo : logob} alt="logo" />
-                <h1 className='hidden md:flex poppins-extrabold group-[.dark-mode]:text-white text-cyan-900 text-xl '>Industech Automations</h1>
+                <h1 className='hidden md:flex poppins-extrabold dark-text-s light-text-s text-xl '>Industech Automations</h1>
             </div>
 
             {/* Right navigation */}
             <div className="flex flex-row-reverse md:flex-row items-center gap-6">
                 {/* Desktop Menu */}
-                <ul className='hidden md:flex gap-10 group-[.dark-mode]:text-white group-[.dark-mode]:[&>*]:hover:text-emerald-50 text-cyan-900 [&>*]:hover:scale-105 [&>*]:hover:text-cyan-950 [&_a]:poppins-bold'>
+                <ul className='hidden md:flex gap-10 dark-text-s group-[.dark-mode]:[&>*]:hover:text-emerald-50 light-text-s [&>*]:hover:scale-105 [&>*]:hover:text-cyan-950 [&_a]:poppins-bold'>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
 
                 {/* Mobile Menu */}
-                <ul className='flex md:hidden gap-6 text-cyan-900 group-[.dark-mode]:text-white'>
+                <ul className='flex md:hidden gap-6 dark-text-s light-text-s'>
                     <li>
                         <i
                             className="cursor-pointer fa fa-outdent text-xl"
