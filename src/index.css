@@ -208,30 +208,38 @@ body {
 } */
 /* blure gradient */
 
-.light-text-s{
+.light-text-s {
   @apply text-[#1b1a2c]
 }
-.light-text-l{
+
+.light-text-l {
   @apply text-[#040138]
 }
-.light-text-vl{
+
+.light-text-vl {
   @apply text-[#5b5b5e]
 }
 
-.dark-text-s{
+.dark-text-s {
   @apply group-[.dark-mode]:text-white
 }
 
-.dark-text-l{
-  @apply  group-[.dark-mode]:text-white/90
+.dark-text-l {
+  @apply group-[.dark-mode]:text-white/90
 }
 
-.i-text{
+.i-text {
   @apply text-3xl md:text-4xl
 }
 
-.l-bg{
+.l-bg {
   @apply group-[.dark-mode]:bg-gray-200/10 bg-[#9fabb63d]
+}
+
+.card-v {
+  @apply m-4 flex flex-col md:w-[25%] md:h-[40vh] justify-center items-center gap-4 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl
+   shadow-blue-300 group-[.dark-mode]:shadow-none group-[.dark-mode]:shadow-2xl 
+  transition-transform duration-200 ease-in-out hover:scale-101  hover:cursor-pointer hover:border-2 hover:border-[#4b4880] hover:group-[.dark-mode]:border-white
 }
 
 html.dark-mode body {
