@@ -66,8 +66,8 @@ function Navbar() {
                 {/* Desktop Menu */}
                 <ul className='hidden md:flex gap-10 dark-text-s group-[.dark-mode]:[&>*]:hover:text-emerald-50 light-text-s [&>*]:hover:scale-105 [&>*]:hover:text-cyan-950 [&_a]:poppins-bold'>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
 
                 {/* Mobile Menu */}

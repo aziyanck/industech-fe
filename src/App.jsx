@@ -8,6 +8,8 @@ import Feature from './components/Feature'
 import Services from './components/Services'
 import Brands from './components/Brands'
 import WhyIta from './components/WhyIta'
+import Contact from './components/Contact'
+
 
 
 
@@ -28,6 +30,7 @@ function App() {
       <Services />
       <Brands />
       <WhyIta />
+      <Contact />
 
     </div>
     

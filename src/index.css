@@ -237,9 +237,20 @@ body {
 }
 
 .card-v {
-  @apply m-4 flex flex-col md:w-[25%] md:h-[40vh] justify-center items-center gap-4 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl
-   shadow-blue-300 group-[.dark-mode]:shadow-none group-[.dark-mode]:shadow-2xl 
-  transition-transform duration-200 ease-in-out hover:scale-101  hover:cursor-pointer hover:border-2 hover:border-[#4b4880] hover:group-[.dark-mode]:border-white
+  @apply m-4 flex flex-col md:w-[25%] md:h-[40vh] justify-center items-center gap-4 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl shadow-blue-300 group-[.dark-mode]:shadow-none group-[.dark-mode]:shadow-2xl transition-transform duration-200 ease-in-out hover:scale-101 hover:cursor-pointer hover:border-2 hover:border-[#4b4880] hover:group-[.dark-mode]:border-white
+}
+
+
+.i-box{
+  @apply px-4 w-auto py-2 border border-gray-300 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300
+}
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(255, 255, 255, 0.83);
 }
 
 html.dark-mode body {
