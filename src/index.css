@@ -226,6 +226,14 @@ body {
   @apply  group-[.dark-mode]:text-white/90
 }
 
+.i-text{
+  @apply text-3xl md:text-4xl
+}
+
+.l-bg{
+  @apply group-[.dark-mode]:bg-gray-200/10 bg-[#9fabb63d]
+}
+
 html.dark-mode body {
   background: #020024;
   background: linear-gradient(319deg, rgb(3, 2, 31) 1%, rgb(10, 10, 73) 100%);

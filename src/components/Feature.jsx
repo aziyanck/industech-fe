@@ -5,7 +5,7 @@ function Feature() {
         <div className="feature  w-[100vw] h-[auto] flex flex-col justify-center items-center overflow-hidden ">
 
             <div className="flex p-6 w-[90vw] justify-center items-center">
-                <div className="flex flex-col justify-around  items-center z-[1] bg-white/10 backdrop-blur-lg rounded-xl shadow-xl shadow-blue-300 group-[.dark-mode]:shadow-none group-[.dark-mode]:shadow-2xl min-w[95vw] md:min-w-[80vw] w-[95vw] md:w-[80] max-w-[95%] md:max-w-[80%] h-[auto] p-4">
+                <div className="flex flex-col justify-around  items-center z-[1] bg-white/10 backdrop-blur-lg rounded-xl shadow-xl shadow-blue-300 group-[.dark-mode]:shadow-none group-[.dark-mode]:shadow-2xl min-w[95vw] md:min-w-[80vw] w-[95vw] md:w-[80] max-w-[95%] md:max-w-[80%] h-[auto] md:py-16 p-4">
                     <div className="ft pb-4 light-text-s  dark-text-s text-center ">
                         <h1 data-aos="fade-up" className=" text-center text-lg md:text-2xl poppins-extrabold p-4">We make your home smarter and your life easier!</h1>
                         <p data-aos="fade-up" data-aos-delay="100" className="mx-2 light-text-l dark-text-l text-justify text-xs md:text-base leading-loose poppins-mededium md:mx-20">
