@@ -19,8 +19,6 @@ function Services() {
                     />
                 ))}
 
-
-
             </div>
         </div>
     )
