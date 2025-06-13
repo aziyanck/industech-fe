@@ -1,14 +1,14 @@
 function Contact() {
     return (
-        <div id="contact" className="w-screen h-auto min-h-screen flex flex-col items-center justify-center dark-text-s light-text-s px-4 py-8">
-            <div className="text-center max-w-xl">
-                <h1 className="poppins-extrabold text-xl">Get a Free Smart Home Consultation</h1>
-                <p className="text-sm poppins-regular m-4 text-justify dark-text-l light-text-l">
+        <div id="contact"  className=" w-screen h-auto min-h-screen flex flex-col items-center justify-center dark-text-s light-text-s px-4 py-8">
+            <div data-aos="fade-up" className="text-center max-w-xl">
+                <h1 className="poppins-extrabold text-3xl">Get a Free Smart Home Consultation</h1>
+                <p className="text-sm poppins-regular m-4 text-center dark-text-l light-text-l">
                     Please let us know how we can help you and one of our Smart Home experts will follow-up with you in the next 24 hours
                 </p>
             </div>
 
-            <div className="form glass w-full max-w-4xl mt-6 p-6 flex flex-col gap-5 justify-center items-center">
+            <div data-aos="fade-up" className="form glass w-[90vw] max-w-4xl mt-6 p-6 flex flex-col gap-5 justify-center items-center">
                 <h1 className="poppins-extrabold text-xl text-center">Ready To Automate Your Home?</h1>
 
                 <form className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -44,7 +44,7 @@ function Contact() {
 
                     <div className="md:col-span-2 text-center">
                         <button
-                            className="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-2 mt-2 rounded-md font-medium transition duration-300"
+                            className="bg-blue-700 hover:bg-indigo-600 text-white px-6 py-2 mt-2 rounded-md font-medium transition duration-300 hover:cursor-pointer"
                         >
                             Contact Us
                         </button>
