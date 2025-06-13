@@ -253,6 +253,27 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.83);
 }
 
+.glass-s {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  
+  @apply border border-[#1b1a2c] group-[.dark-mode]:border-white/50
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
 html.dark-mode body {
   background: #020024;
   background: linear-gradient(319deg, rgb(3, 2, 31) 1%, rgb(10, 10, 73) 100%);
