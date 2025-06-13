@@ -26,8 +26,8 @@ function App() {
     <div className="overflow-x-clip">
       <Navbar />
       <Home />
-      <Feature />
       <Services />
+      <Feature />
       <Brands />
       <WhyIta />
       <Contact />
