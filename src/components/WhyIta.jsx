@@ -23,6 +23,7 @@ function WhyIta() {
                         <p className="text-sm mb-4 mx-4 text-center poppins-regular">Over 10 years in building homes automations satisfied customers</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     )
