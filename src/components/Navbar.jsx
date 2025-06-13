@@ -92,16 +92,16 @@ function Navbar() {
 
                 {/* Mobile Menu Dropdown */}
                 <div
-                    className={`fixed md:hidden block top-0 right-0 h-screen w-[75vw] bg-white/5 backdrop-blur-sm border-b border-grey-500 group-[.dark-mode]:border-white/10 z-[9999] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+                    className={`fixed md:hidden block top-0 right-0 h-screen w-[50vw] bg-white/60 group-[.dark-mode]:bg-black/60  border-b border-grey-500 group-[.dark-mode]:border-white/10 z-[9999] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                         }`}
                 >
                     <div className="flex justify-end p-6">
                         <i
-                            className="fa fa-close text-2xl cursor-pointer text-cyan-800 group-[.dark-mode]:text-white "
+                            className="fa fa-close text-2xl cursor-pointer dark-text-s light-text-s "
                             onClick={() => setMenuOpen(false)}
                         ></i>
                     </div>
-                    <ul className='flex flex-col gap-6 items-start px-10 mt-10 text-lg text-cyan-800 group-[.dark-mode]:text-white poppins-bold'>
+                    <ul className='flex flex-col gap-6 items-start px-10 mt-10 text-lg dark-text-s light-text-s poppins-bold'>
                         <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
                         <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
                         <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>

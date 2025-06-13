@@ -11,7 +11,7 @@ function Contact() {
             <div data-aos="fade-up" className="form glass w-[90vw] max-w-4xl mt-6 p-6 flex flex-col gap-5 justify-center items-center">
                 <h1 className="poppins-extrabold text-xl text-center">Ready To Automate Your Home?</h1>
 
-                <form className="w-full grid grid-cols-1 dark-text-l light-text-l md:grid-cols-2 gap-4">
+                <form className="w-full grid grid-cols-1  md:grid-cols-2 gap-4">
                     <input
                         type="text"
                         placeholder="Enter your name"

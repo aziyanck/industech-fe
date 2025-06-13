@@ -242,7 +242,7 @@ body {
 
 
 .i-box{
-  @apply px-4 w-auto  py-2 border border-gray-300 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300
+  @apply px-4 w-auto placeholder-gray-400 py-2 border border-gray-300 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300
 }
 .glass {
   background: rgba(255, 255, 255, 0.05);
